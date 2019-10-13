@@ -3,9 +3,7 @@ Write a function called int_return that takes an integer as input and returns th
 
 s = input(int)
 def int_return(s):
-    
-    return s
-    
+     return s
 int_return(s)
 
 
@@ -33,7 +31,7 @@ Write a function called change that takes any string, adds â€œNice to meet you!â
 
 s = input("enter string:")
 def change(s):
-	   return  s + "Nice to meet you!" 
+	   return  s + "Nice to meet you
 print(s)
 
 
@@ -69,11 +67,8 @@ def length(list_of_names):
         if len(name) >= 5: 
             return "Longer than 5"             
     return "Less than 5" 
-   
-
 list1 = ["Sam","Tera","Sal","Amita"]
 list2 = ["Rey","Ayo","Lauren","Natalie"]
-
 print(length(list1))
 print(length(list2))
 
@@ -87,10 +82,7 @@ ou will need to write two functions for this problem. The first function, divide
 def divide(x):
     x = x/2
     return x*2
-
 def sum(y):
     y = y / 2
     return y + 6
-
-
 c = 4
